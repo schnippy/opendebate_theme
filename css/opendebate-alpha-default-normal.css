@@ -1,0 +1,34 @@
+/* This file will hold styles that are loaded using the same media query as the normal grid. */
+/* If you are using the default media queries provided by Omega, these styles will also
+ *  apply to the widescreen layout unless they are overridden by the widescreen styles. */
+
+/* NEWS */
+
+.ode-news-keyword-image {
+  width: 200px;
+  padding: 5px;
+  border: 1px dashed #ccc;
+  float: left;
+}
+
+.ode-news-keyword-image img { 
+  width: 200px;
+  height: 125px;
+}
+
+.ode-news-main { 
+  margin-left: 230px;
+  margin-top: -140px;
+  float: left;
+}
+
+/* CITATIONS */
+
+.view-bibliography li.views-row {
+  margin-left: 25px;
+}
+
+.view-bibliography .ode-citation-authors {
+  margin-left: -25px;
+  font-weight: bold;
+}
